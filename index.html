@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINE Blog Generator</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
+        .container { max-width: 600px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #00B900; text-align: center; }
+        .status { background: #e8f5e8; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .endpoint { background: #f0f0f0; padding: 10px; border-radius: 5px; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 LINE Blog Generator</h1>
+        <div class="status">
+            <h3>✅ システム状況</h3>
+            <p><strong>Webhook:</strong> 正常動作中</p>
+            <p><strong>LINE連携:</strong> 接続済み</p>
+            <p><strong>デプロイ:</strong> 完了</p>
+        </div>
+        
+        <h3>📡 API エンドポイント</h3>
+        <div class="endpoint">/api/webhook</div>
+        
+        <h3>🚀 使用方法</h3>
+        <ol>
+            <li>LINEボットを友達追加</li>
+            <li>メッセージを送信</li>
+            <li>自動応答を確認</li>
+        </ol>
+        
+        <p style="text-align: center; color: #666; margin-top: 30px;">
+            Powered by Vercel + LINE Messaging API
+        </p>
+    </div>
+</body>
+</html>
